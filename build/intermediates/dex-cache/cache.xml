@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/DJMojo/AndroidStudioProjects/LaunchSound/laMale/libs/core-3.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ee7d9bc1ce7f847f6de8d089c866831effe8d415">
+        <dex dex="/Users/DJMojo/AndroidStudioProjects/LaunchSound/laMale/build/intermediates/pre-dexed/debug/core-3.0.0-d88e3e5cfdc8292d596a393a2e042f04efa201a2.jar" />
+    </item>
+    <item
+        jar="/Users/DJMojo/Development/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/Users/DJMojo/AndroidStudioProjects/LaunchSound/laMale/build/intermediates/pre-dexed/debug/support-v4-19.1.0-f62f2cde5566a5efa87eb6356477a482df35f69b.jar" />
+    </item>
+
+</items>

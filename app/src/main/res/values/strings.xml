@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LaunchSound</string>
+    <string name="action_settings">Share</string>
+    <string name="title_activity_qrcode">QR Code</string>
+    <string name="title_activity_stat">Stat</string>
+    <string name="action_stat">Stat</string>
+    <string name="title_activity_about">About</string>
+    <string name="title_activity_movies">Movies</string>
+    <string name="movies">Movies</string>
+    <string name="title_southpark">South Park</string>
+    <string name="action_about">About</string>
+
+    <string name="timmy">Timmy !!</string>
+    <string name="balladur">Keep calm …</string>
+    <string name="captainBastard">Captain Bastard</string>
+    <string name="coin">Coin</string>
+    <string name="hou">Hou !!</string>
+    <string name="meuh">Meww !!</string>
+    <string name="singe">Monkey</string>
+    <string name="hodor">Hodor</string>
+    <string name="chewbacca">Chewbacca</string>
+    <string name="mresclave">Lord Jesus</string>
+    <string name="garrison">Mr Garrison</string>
+    <string name="chuck">Chuck Norris</string>
+    <string name="groot">Groot</string>
+    <string name="lorde">Lorde</string>
+    <string name="r2d2">R2D2</string>
+    <string name="doc_savage">Doc Savage</string>
+
+    <string name="zero">0</string>
+
+</resources>

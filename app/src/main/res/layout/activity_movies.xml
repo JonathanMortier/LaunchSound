@@ -1,0 +1,66 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/chewbacca"
+                android:text="@string/chewbacca"
+                android:src="@drawable/chewbacca"
+                android:id="@+id/btn_chewbacca"
+                android:layout_column="2" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/chuck"
+                android:text="@string/chuck"
+                android:src="@drawable/chucknorris"
+                android:id="@+id/btn_chuck"
+                android:layout_column="2" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/groot"
+                android:text="@string/groot"
+                android:src="@drawable/groot"
+                android:id="@+id/btn_groot"
+                android:layout_column="0" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/r2d2"
+                android:text="@string/r2d2"
+                android:src="@drawable/r2d2"
+                android:id="@+id/btn_r2d2"
+                android:layout_column="2" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/doc_savage"
+                android:text="@string/doc_savage"
+                android:src="@drawable/docsavage"
+                android:id="@+id/btn_doc_savage"
+                android:layout_column="0" />
+
+        </TableRow>
+    </TableLayout>
+</ScrollView>

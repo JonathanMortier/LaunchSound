@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.patapin.djmojo.soundbox" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_timmy"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activity.QRCodeActivity"
+            android:label="@string/title_activity_qrcode" >
+        </activity>
+        <activity
+            android:name=".activity.StatActivity"
+            android:label="@string/title_activity_stat" >
+        </activity>
+        <activity
+            android:name=".activity.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".activity.MoviesActivity"
+            android:label="@string/title_activity_movies"
+            android:parentActivityName=".activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patapin.djmojo.soundbox.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SouthParkActivity"
+            android:label="@string/title_southpark"
+            android:parentActivityName=".activity.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.patapin.djmojo.soundbox.activity.MainActivity" />
+        </activity>
+
+        <activity
+            android:name=".activity.CustomActivity">
+
+        </activity>
+
+        <!--<provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.patapin.djmojo.soundbox"
+            android:grantUriPermissions="true"
+            android:exported="false">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>-->
+
+    </application>
+
+</manifest>

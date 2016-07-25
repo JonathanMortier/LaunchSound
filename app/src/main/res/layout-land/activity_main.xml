@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/captainBastard"
+                android:text="@string/captainBastard"
+                android:src="@drawable/captainbastard"
+                android:id="@+id/btn_captainbastard"
+                android:layout_column="0" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/coin"
+                android:text="@string/coin"
+                android:src="@drawable/canard"
+                android:id="@+id/btn_coin"
+                android:layout_column="1" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/meuh"
+                android:text="@string/meuh"
+                android:src="@drawable/cow"
+                android:id="@+id/btn_meuh"
+                android:layout_column="2" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/singe"
+                android:text="@string/singe"
+                android:src="@drawable/singe"
+                android:id="@+id/btn_singe"
+                android:layout_column="3" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/hou"
+                android:text="@string/hou"
+                android:src="@drawable/boo"
+                android:id="@+id/btn_hou"
+                android:layout_column="5" />
+
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/balladur"
+                android:text="@string/balladur"
+                android:src="@drawable/balladur"
+                android:id="@+id/btn_balladur"
+                android:layout_column="0" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/hodor"
+                android:text="@string/hodor"
+                android:src="@drawable/hodor"
+                android:id="@+id/btn_hodor"
+                android:layout_column="1" />
+
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/movies"
+                android:text="@string/movies"
+                android:id="@+id/btn_dir_movies"
+                android:src="@drawable/moviedir"
+                android:layout_column="2" />
+
+            <ImageButton
+                style="@style/btn_style"
+                android:contentDescription="@string/title_southpark"
+                android:text="@string/title_southpark"
+                android:id="@+id/btn_dir_southpark"
+                android:src="@drawable/southparkdir"
+                android:layout_column="3" />
+
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>
