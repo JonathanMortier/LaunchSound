@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.patapin.djmojo.soundbox" >
 
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:allowBackup="true"
         android:icon="@drawable/ic_launcher_timmy"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme"
+        android:fullBackupContent="true"
+        tools:ignore="GoogleAppIndexingWarning"
+        android:allowBackup="true">
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name" >
@@ -52,16 +55,7 @@
             android:name=".activity.CustomActivity">
 
         </activity>
-
-        <!--<provider
-            android:name="android.support.v4.content.FileProvider"
-            android:authorities="com.patapin.djmojo.soundbox"
-            android:grantUriPermissions="true"
-            android:exported="false">
-            <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/filepaths" />
-        </provider>-->
+        <activity android:name=".activity.SoundButtonActivity" />
 
     </application>
 
