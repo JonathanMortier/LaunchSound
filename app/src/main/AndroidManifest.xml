@@ -9,7 +9,7 @@
         android:icon="@drawable/ic_launcher_timmy"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
-        android:fullBackupContent=""
+        android:fullBackupContent="true"
         tools:ignore="GoogleAppIndexingWarning"
         android:allowBackup="true">
         <activity
